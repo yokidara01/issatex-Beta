@@ -1,0 +1,61 @@
+user : gerant 
+
+saisie ifurgnet 
+refof generer automatique 
+taille de confection   chque taille avec ca quantité 
+
+
+3 interface de rendement a choisire : journa/hebdo/mentuelle 
+-----------------
+interface 1  (pensil pour la chart graphique ou balsamiq  )
+authentification (login,mdp) 
+sinon inscription 
+
+interface 2 
+creation des ilots  : les CRUD ... (+delete controle pas des uf en cours )
+Consultation  ilots (detail : les machine + nbr ouvrier )
+
+interface 3 
+
+Gestion UF  : saisie OF ordinaire ou urgent 
+==>NON engager il peut : 
+-consultation 
+-modification ( qte,taille,prixPu ..) 
+-suppression ( donneur d'ordre qui supprime son UF ) ( admin il modifier OF en Instance modifier ilot +planification)
+( if closed pas de modif )
+consulter l'etat  : 0 non planifier , 1 planifier , 2 production ,3  closed
+  
+  interface 4 planification (sur tt la semaine ! ) 
+  OF en instance    :
+  OF Urgent en premier 
+  chaque OF affecté a un Ilot (un ilot travail 8h par jour)
+  
+  qté*tempsEstimé   6*8 =48 h
+    (a affciher)=>
+   OF1  2H
+   OF2	6H
+   OF3	7H
+   OF4	12H
+  
+  
+  
+  interface 5 prodcution 
+production journalier 
+(secretaire)
+production de chanque ilots
++ temps de presence de chaque employer 
+employ 1 = duré 1 
+employ 2 = duré 2
+avec duré <=8h
+
+interface 6 rendement d'ateleier  
+rJ
+rH
+RMensu
+
+
+diagram class 
+model / shema conceptiolee 
+chart graphique 
+                                         
+  
